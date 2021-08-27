@@ -36,7 +36,7 @@ export default function SideBar() {
                     <nav className="mt-2">
                         <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                             {/* Add icons to the links using the .nav-icon class
-         with font-awesome or any other icon font library */}
+                             with font-awesome or any other icon font library */}
                             <li className="nav-item menu-open">
                                 <a href="#" className="nav-link active">
                                     <i className="nav-icon fas fa-tachometer-alt" />
@@ -49,7 +49,7 @@ export default function SideBar() {
                                     <li className="nav-item">
                                         <Link to="/"className="nav-link active">
                                             <i className="far fa-circle nav-icon" />
-                                            <p>content v1</p>
+                                            <p>Home</p>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
@@ -66,15 +66,7 @@ export default function SideBar() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
-                                    <i className="nav-icon fas fa-th" />
-                                    <p>
-                                        Widgets
-                                        <span className="right badge badge-danger">New</span>
-                                    </p>
-                                </a>
-                            </li>
+                            
                             <li className="nav-item">
                                 <a href="#" className="nav-link">
                                     <i className="nav-icon fas fa-copy" />
