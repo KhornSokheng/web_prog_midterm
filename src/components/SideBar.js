@@ -53,6 +53,30 @@ export default function SideBar() {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
+                                        <Link to="/aboutus" className="nav-link">
+                                            <i className="far fa-circle nav-icon" />
+                                            <p>About us</p>
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/skill" className="nav-link">
+                                            <i className="far fa-circle nav-icon" />
+                                            <p>skill</p>
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/profile" className="nav-link">
+                                            <i className="far fa-circle nav-icon" />
+                                            <p>Profile</p>
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/cotentus" className="nav-link">
+                                            <i className="far fa-circle nav-icon" />
+                                            <p>Contect us</p>
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
                                         <Link to="/dashboard" className="nav-link">
                                             <i className="far fa-circle nav-icon" />
                                             <p>Dashboard v2</p>
@@ -64,6 +88,7 @@ export default function SideBar() {
                                             <p>MyReport v3</p>
                                         </Link>
                                     </li>
+                                    
                                 </ul>
                             </li>
                             
