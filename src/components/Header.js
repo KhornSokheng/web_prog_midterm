@@ -10,10 +10,19 @@ export default function Header() {
                         <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <a href="index3.html" className="nav-link">Home</a>
+                        <a href="/" className="nav-link">Home</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <a href="#" className="nav-link">Contact</a>
+                        <a href="/Aboutus" className="nav-link">Aboutus</a>
+                    </li>
+                    <li className="nav-item d-none d-sm-inline-block">
+                        <a href="/skill" className="nav-link">Skill</a>
+                    </li>
+                    <li className="nav-item d-none d-sm-inline-block">
+                        <a href="/profile" className="nav-link">Profile</a>
+                    </li>
+                    <li className="nav-item d-none d-sm-inline-block">
+                        <a href="/cotectus" className="nav-link">Contact</a>
                     </li>
                 </ul>
                 {/* Right navbar links */}

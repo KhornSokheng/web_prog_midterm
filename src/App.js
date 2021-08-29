@@ -21,9 +21,6 @@ function App() {
      <Switch>
      
      <Route component={Home} path="/"exact/>    
-     <Route component={Content} path="/"exact/>
-     <Route component={Dashboard} path="/dashboard"/>
-     <Route component={Report} path="/report"/>
      <Route component={aboutus} path="/aboutus"exact/> 
      <Route component={contectus} path="/contectus"exact/> 
      <Route component={skill} path="/skill"exact/>

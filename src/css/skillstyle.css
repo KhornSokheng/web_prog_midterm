@@ -1,0 +1,135 @@
+.skill{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+    background-color: cadetblue;
+    text-align: left;
+}
+.box2{
+    background-color:darkgrey;
+    width: 300;
+    height: 300;
+    text-align: left;
+}
+.box3{
+    background-color: cadetblue;
+    text-align: left;
+}
+.box4{
+    background-color:darkgrey;
+    text-align: left;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 30px;
+}
+h5{
+    font-size: 30px;
+}
+#myProgress {
+    position: relative;
+    width: 60%;
+    height: 30px;
+    background-color: #ddd;
+  }
+  #javascriptmu{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color:pink;
+  }
+  #Pytonmu {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: red;
+  }
+  #Htmlmu {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: #408dac;
+  }
+  #CPPmu {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: cyan;
+  }
+  #javascriptnon{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color:pink;
+  }
+  #Pytonnon {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: red;
+  }
+  #Htmlnon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #408dac;
+  }
+  #CPPnon {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: cyan;
+  }
+  #javascriptoui{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color:pink;
+  }
+  #Pytonoui {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: red;
+  }
+  #Htmloui {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: #408dac;
+  }
+  #CPPoui {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: cyan;
+  }
+  #javascriptaum{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color:pink;
+  }
+  #Pytonaum {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: red;
+  }
+  #Htmlaum {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #408dac;
+  }
+  #CPPaum {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: cyan;
+  }
