@@ -10,7 +10,7 @@ import Home from './components/Home';
 import contectus from './components/contectus';
 import skill from './components/skill';
 import aboutus from './components/aboutus';
-import profile from './components/profile';
+import portfolio from './components/Portfolio';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
      <Route component={aboutus} path="/aboutus"exact/> 
      <Route component={contectus} path="/contectus"exact/> 
      <Route component={skill} path="/skill"exact/>
-     <Route component={profile} path="/profile"exact/>   
+     <Route component={portfolio} path="/portfolio"exact/>   
       
      </Switch>
      {/*Content/>*/}
