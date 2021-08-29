@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import '../css/style.css'
 
+
 export default function SideBar() {
     return (
         <div>
@@ -60,13 +61,13 @@ export default function SideBar() {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to="/profile" className="nav-link">
+                                        <Link to="/portfolio" className="nav-link">
                                             <i className="fas fa-briefcase nav-icon" />
                                             <p>Portfolio</p>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to="/cotentus" className="nav-link">
+                                        <Link to="/contectus" className="nav-link">
                                             <i className="fas fa-phone-square-alt nav-icon" />
                                             <p>Contact us</p>
                                         </Link>
