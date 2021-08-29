@@ -13,13 +13,13 @@ export default function Header() {
                         <a href="/" className="nav-link">Home</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <a href="/Aboutus" className="nav-link">Aboutus</a>
+                        <a href="/Aboutus" className="nav-link">About Us</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
                         <a href="/skill" className="nav-link">Skill</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <a href="/profile" className="nav-link">Profile</a>
+                        <a href="/profile" className="nav-link">Portfolio</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
                         <a href="/cotectus" className="nav-link">Contact</a>
