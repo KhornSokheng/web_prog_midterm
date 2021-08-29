@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import '../css/style.css'
 
 export default function SideBar() {
     return (
@@ -18,7 +19,7 @@ export default function SideBar() {
                             <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
                         </div>
                         <div className="info">
-                            <a href="#" className="d-block">Alexander Pierce</a>
+                            <a href="#" className="d-block">Mujalin 123</a>
                         </div>
                     </div>
                     {/* SidebarSearch Form */}
@@ -42,32 +43,32 @@ export default function SideBar() {
                                 <ul className="nav nav-treeview">
                                     <li className="nav-item">
                                         <Link to="/"className="nav-link active">
-                                            <i className="far fa-circle nav-icon" />
+                                            <i className="far fa fa-home nav-icon" aria-hidden="true"/>
                                             <p>Home</p>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/aboutus" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
+                                            <i className="far fa-address-card nav-icon" />
                                             <p>About us</p>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/skill" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>skill</p>
+                                            <i className="far fas fa-graduation-cap nav-icon" />
+                                            <p>Skill</p>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/profile" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Profile</p>
+                                            <i className="fas fa-briefcase nav-icon" />
+                                            <p>Portfolio</p>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/cotentus" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Contect us</p>
+                                            <i className="fas fa-phone-square-alt nav-icon" />
+                                            <p>Contact us</p>
                                         </Link>
                                     </li>
                                     

@@ -65,6 +65,10 @@ body,html {
     background-position: -22px;
     right: 0px;
 }
+/* .nav-icon{
+    text-align: left;
+    margin-right: 20 px;
+} */
 
 @media only screen and (max-width: 1180px) {
     .carousel {
