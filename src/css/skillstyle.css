@@ -1,43 +1,65 @@
 .skill{
   text-align: center;
+  width: 1000;
+  height: 1200;
   border-style:solid;
   font-size: 1200px;
+
 }
 .container-fluid{
-    padding-left:350px;
+    padding-left: 200px;
+    background-image:url('3.jpg');
+    background-position: center top;
     font-family: Arial, Helvetica, sans-serif;
 }
-.info-box{
-  font-size: 30px;
+.box{
+  font-size: 40px;
+  width: 1000;
+  height: 1200;
+  position: relative;
+  padding-top: 50;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+.box5{
+  padding-top: 50;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-right: 120px;
+}
+.box6{
+  padding-top: 50;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-right: 75px;
 }
 .box1{
   
-    background-color: cadetblue;
+    background-color:rgb(226, 144, 171);
     
 }
+
 .lau{
-    padding: 10px;
-    
-    text-align: justify;
-    display:inline;
+  text-align:left;
+  background-color: wheat;
+  
 }
 .box2{
  
-    background-color:darkgrey;
+    background-color:cornflowerblue;
 }
 .box3{
-    background-color: cadetblue;
+    background-color: rgb(247, 167, 138);
     
 }
 .box4{
-    background-color:darkgrey;
+    background-color:cornflowerblue;
    
 }
 h2{
     font-size: 30px;
 }
 h3{
-    text-align :center;
     font-size: 30px;
 }
 h4{
@@ -49,105 +71,3 @@ h5{
 h6{
   font-size: 30px;
 }
-#myProgress {
-    position: relative;
-    width: 60%;
-    height: 30px;
-    background-color: #ddd;
-  }
-  #javascriptmu{
-    position: absolute;
-    width: 40%;
-    height: 100%;
-    background-color:pink;
-  }
-  #Pytonmu {
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background-color: red;
-  }
-  #Htmlmu {
-    position: absolute;
-    width: 70%;
-    height: 100%;
-    background-color: #408dac;
-  }
-  #CPPmu {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    background-color: cyan;
-  }
-  #javascriptnon{
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background-color:pink;
-  }
-  #Pytonnon {
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background-color: red;
-  }
-  #Htmlnon {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    background-color: #408dac;
-  }
-  #CPPnon {
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background-color: cyan;
-  }
-  #javascriptoui{
-    position: absolute;
-    width: 40%;
-    height: 100%;
-    background-color:pink;
-  }
-  #Pytonoui {
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background-color: red;
-  }
-  #Htmloui {
-    position: absolute;
-    width: 70%;
-    height: 100%;
-    background-color: #408dac;
-  }
-  #CPPoui {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    background-color: cyan;
-  }
-  #javascriptaum{
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    background-color:pink;
-  }
-  #Pytonaum {
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background-color: red;
-  }
-  #Htmlaum {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    background-color: #408dac;
-  }
-  #CPPaum {
-    position: absolute;
-    width: 70%;
-    height: 100%;
-    background-color: cyan;
-  }
