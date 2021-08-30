@@ -6,24 +6,17 @@ export default function skill() {
         <section className="skillbox">
             <div class = "skill">
                 <h1>Skill</h1>
-                </div>
+            </div>   
 
           <div className="container-fluid">
             {/* Info boxes */}
             < div className="row">
               <div className="box1">
-              
-                <div className="info-box">
-                  <img src="dist/img/goup/mu.jpg" BORDER ="3" width="500"height="600" ></img> 
-                  <br/>
-                       Mujalin Khattiyanon 
-                  <br/>
-                  <div className= "lau"> 
-                  <br/>
-                  <br/>
-                  <br/>
-                
-                  <h3>javascript:
+                <div className="box5">
+                  <img src="dist/img/goup/mu.jpg" BORDER ="3"  ></img> 
+                       Mujalin Khattiyanon
+                  <div className= "lau">
+                  <h3>Javascript:
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -44,21 +37,16 @@ export default function skill() {
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </h6>
-                  
                 </div> 
                 </div> 
                 </div>
                 <div className="box2">
-                <div className="info-box">
-                  <img src="dist/img/goup/non.jpg" BORDER ="3" width="510"height="600" ></img> 
-                  <br/>
+                <div className="box6">
+                  <img src="dist/img/goup/non.jpg" BORDER ="3" ></img> 
                    Khorn Sokheng
                   <div className= "lau"> 
                   <h3>
-                      <br/>
-                      <br/>
-                      <br/>
-                  javascript:
+                  Javascript:
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -92,16 +80,14 @@ export default function skill() {
                 </div> 
                 </div>
                 <div className="box3">
-                <div className="info-box">
-                  <img src="dist/img/goup/oui.jpg" BORDER ="3" width="450"height="600" ></img> 
-                  <br/>
+                <div className="box">
+                  <img src="dist/img/goup/oui.jpg" BORDER ="3"width="370" height="370" ></img> 
+                
                  Lapusrada Jonboonruang 
                   <div className= "lau"> 
                   <h3>
-                      <br/>
-                      <br/>
-                      <br/>
-                  javascript: 
+                      
+                  Javascript: 
                   <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -130,15 +116,12 @@ export default function skill() {
                 </div> 
             </div>
                 <div className="box4">
-                <div className="info-box">
-                  <img src="dist/img/goup/aum.jpg" BORDER ="3" width="500"height="600" ></img> 
-                  <br/>
+                <div className="box">
+                  <img src="dist/img/goup/aum.jpg" BORDER ="3"  ></img> 
                   Suchapong Songprakon 
                   <div className= "lau"> 
                   <h3>
-                  <br/>
-                  <br/>
-                      <br/>javascript:
+                      Javascript:  
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   </h3>
@@ -166,6 +149,7 @@ export default function skill() {
             </div>
             </div> 
             </div>
+           
         </section>
         
     )
