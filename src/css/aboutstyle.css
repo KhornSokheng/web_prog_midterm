@@ -1,0 +1,26 @@
+.aboutbox{
+    font-size: 500px;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 60px;
+}
+
+.about{
+    text-align: center;
+    width: 1000;
+    height: 1200;
+    border-style:solid;
+    font-size: 1200px;
+}
+.container{
+    padding-left: 200px;
+    background-position: center top;
+    font-family: Arial, Helvetica, sans-serif;
+}

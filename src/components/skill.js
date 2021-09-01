@@ -11,7 +11,7 @@ export default function skill() {
           <div className="container-fluid">
             {/* Info boxes */}
             < div className="row">
-              <div className="box1">
+              <div className="box">
                 <div className="box5">
                   <img src="dist/img/goup/mu.jpg" BORDER ="3"  ></img> 
                        Mujalin Khattiyanon
