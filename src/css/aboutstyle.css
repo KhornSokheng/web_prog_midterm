@@ -1,8 +1,29 @@
-.Mu{
-    background-color: darksalmon;
-}
-.Oui{
-    background-color: darksalmon;
+.abus{
+  background-color: rgb(208, 181, 243);
+  color: white;
+  position: sticky;
+  top: 0;
 }
 
-
+.box01{
+    background-color: rgb(159, 247, 198);
+}
+.box02{
+    background-color: rgb(204, 204, 245);
+}
+.box03{
+    background-color: rgb(247, 210, 197);
+}
+.box04{
+    background-color: rgb(252, 107, 192);
+}
+.textab{
+    color:rgb(255, 255, 255)
+    
+}
+.imgab{
+   left: 100%;
+   padding: 5px;
+   margin: 5px;
+   border-left: wheat;
+}
