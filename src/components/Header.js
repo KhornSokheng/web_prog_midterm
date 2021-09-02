@@ -19,7 +19,7 @@ export default function Header() {
                         <a href="/skill" className="nav-link">Skill</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <a href="/profile" className="nav-link">Portfolio</a>
+                        <a href="/portfolio" className="nav-link">Portfolio</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
                         <a href="/cotectus" className="nav-link">Contact</a>

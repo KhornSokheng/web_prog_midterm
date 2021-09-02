@@ -1,29 +1,26 @@
-.abus{
-  background-color: rgb(208, 181, 243);
-  color: white;
-  position: sticky;
-  top: 0;
+.aboutbox{
+    font-size: 500px;
 }
 
-.box01{
-    background-color: rgb(159, 247, 198);
+h1{
+    font-size: 50px;
 }
-.box02{
-    background-color: rgb(204, 204, 245);
+h2{
+    font-size: 50px;
 }
-.box03{
-    background-color: rgb(247, 210, 197);
+h3{
+    font-size: 60px;
 }
-.box04{
-    background-color: rgb(252, 107, 192);
+
+.about{
+    text-align: center;
+    width: 1000;
+    height: 1200;
+    border-style:solid;
+    font-size: 1200px;
 }
-.textab{
-    color:rgb(255, 255, 255)
-    
-}
-.imgab{
-   left: 100%;
-   padding: 5px;
-   margin: 5px;
-   border-left: wheat;
+.container{
+    padding-left: 200px;
+    background-position: center top;
+    font-family: Arial, Helvetica, sans-serif;
 }
