@@ -2,12 +2,6 @@ import React from 'react'
 import '../css/skillstyle.css'
 export default function skill() {
     return (
-       
-        <section className="skillbox">
-            <div class = "skill">
-                <h1>Skill</h1>
-            </div>   
-
           <div className="container-fluid">
             {/* Info boxes */}
             < div className="row">
@@ -16,12 +10,13 @@ export default function skill() {
                   <img src="dist/img/goup/mu.jpg" BORDER ="3"  ></img> 
                        Mujalin Khattiyanon
                   <div className= "lau">
-                  <h3>Javascript:
+                 <h3>Skill</h3>
+                  <h7>Javascript:
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                  </h3>
+                  </h7>
                    
                     <h4>Pyton : 
                     <i class="fas fa-star"></i>
@@ -45,14 +40,15 @@ export default function skill() {
                   <img src="dist/img/goup/non.jpg" BORDER ="3" ></img> 
                    Khorn Sokheng
                   <div className= "lau"> 
-                  <h3>
+                  <h3>Skill</h3>
+                  <h7>
                   Javascript:
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    </h3>
+                    </h7>
 
                     <h4>Pyton :  <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -60,13 +56,13 @@ export default function skill() {
                     <i class="fas fa-star"></i>
                     </h4>
 
-                    <h3>Html :
+                    <h5>Html :
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                     </h3>
+                     </h5>
                         
                     <h6>CPP :
                     <i class="fas fa-star"></i>
@@ -85,14 +81,15 @@ export default function skill() {
                 
                  Lapusrada Jonboonruang 
                   <div className= "lau"> 
-                  <h3>
+                  <h3>Skill</h3>
+                  <h7>
                       
                   Javascript: 
                   <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     
-                  </h3>
+                  </h7>
                  
                     <h4>Pyton :
                     <i class="fas fa-star"></i>
@@ -119,12 +116,13 @@ export default function skill() {
                 <div className="box">
                   <img src="dist/img/goup/aum.jpg" BORDER ="3"  ></img> 
                   Suchapong Songprakon 
-                  <div className= "lau"> 
-                  <h3>
+                  <div className= "lau">
+                  <h3>Skill</h3> 
+                  <h7>
                       Javascript:  
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  </h3>
+                  </h7>
                     <h4>Pyton :
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -149,8 +147,5 @@ export default function skill() {
             </div>
             </div> 
             </div>
-           
-        </section>
-        
     )
 }
