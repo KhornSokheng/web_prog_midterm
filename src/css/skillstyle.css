@@ -13,31 +13,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .box{
-  font-size: 40px;
+  font-size: 50px;
   width: 1000;
   height: 1200;
   position: relative;
   padding-top: 50;
-  padding-left: 50px;
-  padding-right: 0px;
+  padding-left: 30px;
+  padding-right: 120px;
 }
 .box5{
   padding-top: 50;
   font-size: 50px;
-  padding-left: 50px;
+  padding-left: 20px;
   padding-right: 120px;
 }
 .box6{
   padding-top: 50;
   font-size: 50px;
   padding-left: 50px;
-  padding-right: 75px;
+  padding-right: 120px;
 }
 
 
-.lau{
+.lau{ 
+  font-size: 30px;
   text-align:left;
   background-color: wheat;
+
   
 }
 h2{

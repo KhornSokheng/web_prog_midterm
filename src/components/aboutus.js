@@ -12,14 +12,14 @@ export default function aboutus() {
             {/* Info boxes */}
             < div className="row">
               <div className="box">
-                <div className="box5">
+                <div className="box">
                   <img src="dist/img/goup/mu.png" BORDER ="3"  ></img> 
                   <h2>Mujalin Khattiyanon</h2>
                   <h3>Information Technology</h3>
                 </div> 
                 </div>
                 <div className="box2">
-                <div className="box6">
+                <div className="box">
                   <img src="dist/img/goup/non.png" BORDER ="3" ></img>
                     <h2>Khorn Sokheng</h2>
                     <h3>Information Technology</h3>
@@ -28,6 +28,7 @@ export default function aboutus() {
                 <div className="box3">
                 <div className="box">
                   <img src="dist/img/goup/Ou.png" ></img> 
+                  <br/>
                    Lapusrada Jonboonruang 
                    <h3> Information Technology </h3>
                 </div> 
