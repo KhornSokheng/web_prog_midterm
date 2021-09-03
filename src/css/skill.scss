@@ -7,7 +7,7 @@
 .container-fluid {
   padding-top: 50px;
   padding-bottom: 50px;
-//   background-image: url("3.jpg");
+  //   background-image: url("3.jpg");
   background-size: 100% 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -47,7 +47,7 @@ h6 {
 //   my change below to make it responsive
 
 .container-fluid {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,8 +57,11 @@ h6 {
 
   @include mobile {
     width: 100%;
-    padding-left: 20px;
+    // padding-left: 20px;
+    height: 90vh;
+    // flex-direction: column;
   }
+  .container-col,
   .row {
     // width: 400px;
     // height: 200px;
@@ -75,8 +78,7 @@ h6 {
     cursor: pointer;
 
     @include mobile {
-      width: 300px;
-      height: 100px;
+      //   flex-direction: column;
     }
 
     .box {
@@ -86,7 +88,7 @@ h6 {
       //   padding-right: 100px;
       width: 80%;
       height: 1200px;
-    //   background-color: brown;
+      //   background-color: brown;
 
       align-items: center;
       justify-content: center;
@@ -97,8 +99,8 @@ h6 {
         font-size: 30px;
       }
       .row_item {
-        // background-color: cadetblue;
-        background-image: url("3.jpg");
+        background-color: cadetblue;
+        // background-image: url("3.jpg");
         height: 90vh;
 
         display: flex;
@@ -110,8 +112,8 @@ h6 {
         cursor: pointer;
         border: 1px solid rgb(14, 13, 13);
         border-radius: 20px;
-        padding: 5px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px 0 10px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
 
         @include mobile {
           // font-size: 30px;
@@ -121,20 +123,34 @@ h6 {
           // display: flex;
           img {
             border-radius: 20px;
+            @include mobile {
+              width: 200px;
+              height: 250px;
+            }
           }
         }
         .lau {
           // style={{ width: "50rem" }}
-          width: 70%;
+          width: 50rem;
           // display: flex;
           justify-content: center;
           align-items: center;
           margin: 10px;
           right: 0;
+
+          i{
+              color: gold;
+              padding: 3px;
+          }
+          @include mobile {
+            width: 500px;
+            height: 500px;
+          }
         }
         &:hover {
           background-color: rgb(161, 245, 196);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
           // img {
           //   opacity: 0.2;
           //   z-index: 0;
