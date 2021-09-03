@@ -1,40 +1,72 @@
 import React from "react";
 import CallIcon from "@material-ui/icons/Call";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
+import PersonPinCircleIcon from '@material-ui/icons/PersonPinCircle';
+import FacebookIcon from '@material-ui/icons/Facebook';
 import "../css/contectus.scss";
 
 export default function contectus() {
   return (
     <div className="contectus">
-      <h1>Contectus</h1>
+      <h1>Contact Us</h1>
       <div className="container">
         <div className="left">
+            {/* <h2>Keep in Touch</h2> */}
+            <div className="facebook">
+            <FacebookIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
+            <a href=".#">Group 2 Buu</a>
+          </div>
           <div className="phone">
-            <CallIcon />
+            <CallIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
             <a href=".#">02934567845</a>
           </div>
-          <div className="ms">
-            <ChatBubbleOutlineIcon />
+          <div className="mail">
+            <ChatBubbleOutlineIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
             <a href=".#">62310021@go.buu.ac.th</a>
           </div>
+          <div className="address">
+            <PersonPinCircleIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
+            <a href=".#">Burapha University, Chan</a>
+          </div>
+          
         </div>
         <div className="right">
+            {/* <h2>Send Us a Message</h2> */}
           <form>
+          <div className="E_name">
+              <input
+                placeholder="Name*"
+                type="text"
+                id="Name"
+                name="Name"
+                className="control"
+              ></input>
+            </div>
             <div className="E_Email">
               <input
-                placeholder="Email"
+                placeholder="Email*"
                 type="text"
                 id="Email"
                 name="Email"
                 className="control"
               ></input>
             </div>
-            <div className="E_name">
+            
+            <div className="E_subject">
               <input
-                placeholder="name"
+                placeholder="Subject*"
                 type="text"
-                id="Name"
-                name="Name"
+                id="subject"
+                name="Subject"
+                className="control"
+              ></input>
+            </div>
+            <div className="E_phone">
+              <input
+                placeholder="phone*"
+                type="text"
+                id="phone"
+                name="phone"
                 className="control"
               ></input>
             </div>
@@ -48,7 +80,7 @@ export default function contectus() {
               ></textarea>
             </div>
             <div className="b_send">
-              <button type="submid" className="btn_send">
+              <button type="submit" className="btn_send">
                 Send
               </button>
             </div>

@@ -1,19 +1,92 @@
 .contectus {
-  background-color: aqua;
+  background-color: whitesmoke;
 
   .container {
     display: flex;
+    // flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    font-size: 15px;
-        margin-right: 50px;
-        padding: 7px;
-        border-radius: 10px;
+    justify-content: center;
+    flex-wrap: wrap;    
+    border-radius: 10px;
+    height: 90vh;
+
     .left {
-      background-color: green;
+      flex: 1;
+      // height: 100%;
+      // justify-content: center;
+
+
+      .phone,
+      .address,
+      .facebook,
+      .mail {
+        font-size: 40px;
+        // margin: 15px;
+        padding: 10px;
+        text-align: left;
+      }
     }
     .right {
-      background-color: indianred;
+      flex: 1;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      
+
+      form {
+        width: 100%;
+        justify-content: space-around;
+        
+        
+        .E_Email,
+        .E_name,
+        .E_text,
+        .E_phone,
+        .E_subject {
+          padding: 10px;
+          // margin: 15 px;
+
+          input {
+            width: 100%;
+            height: 25px;
+            font-size: 16px;
+            // display: flex;
+            // flex-direction: row;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            
+            
+          }
+        }
+
+        .E_text {
+          textarea {
+            width: 100%;
+            border-radius: 5px;
+            border: none;
+            padding: 15px;
+            height: 100px;
+            font-size: 16px;
+          }
+        }
+
+        .b_send {
+        
+          button {
+            color: whitesmoke;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            width: 150px;
+            height: 40px;
+            font-weight: bold;
+            cursor: pointer;
+          }
+        }
+      }
     }
   }
 }
