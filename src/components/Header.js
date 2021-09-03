@@ -24,7 +24,7 @@ export default function Header() {
                         <a href="/portfolio" className="nav-link">Portfolio</a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <a href="/cotectus" className="nav-link">Contact</a>
+                        <a href="/contectus" className="nav-link">Contact</a>
                     </li>
                 </ul>
                 {/* Right navbar links */}

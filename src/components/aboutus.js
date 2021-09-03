@@ -13,48 +13,51 @@ export default function aboutus() {
       <div className="bg">
         <div className="row">
           
-          <div className="card" style={{ width: "19rem" }}>
+          <div className="card" style={{ width: "25rem" }}>
             <img className="card-img-top" src="/dist/img/goup/mu.jpg" alt="Card image cap" />
             <div className="card-body">
-              <h1 className="card-title">Mujalin Khattiyanon (Mulin)</h1>
+              <h1 className="card-text">Mujalin Khattiyanon 
               <br/>
-              <p className="card-text">CEO</p>
+              (Mulin)</h1>
+              <br/>
+              <p className="card-t">CEO</p>
               <a href="#" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
           </div>
           
-          <div className="card" style={{ width: "19rem" }}>
+          <div className="card" style={{ width: "25rem" }}>
             <img className="card-img-top" src="/dist/img/goup/non.jpg" alt="Card image cap" />
             <div className="card-body">
-              <h5 className="card-title">Khorn Sokheng (Non)</h5>
+              <h5 className="card-text">Khorn Sokheng 
               <br/>
-              <p className="card-text">Art Director</p>
+              (Non)</h5>
+              <br/>
+              <p className="card-t">Art Director</p>
               <a href="#" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
           </div>
           
-          <div className="card" style={{ width: "19rem" }}>
+          <div className="card" style={{ width: "25rem" }}>
             <img className="card-img-top" src="/dist/img/goup/aum.jpg" alt="Card image cap" />
             <div className="card-body">
-              <h5 className="card-title">Suchapong Songprakon (Aum)</h5>
+              <h5 className="card-text">Suchapong Songprakon (Aum)</h5>
               <br/>
-              <p className="card-text">Designer</p>
+              <p className="card-t">Designer</p>
               <a href="#" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
           </div>
           
-          <div className="card" style={{ width: "19rem" }}>
+          <div className="card" style={{ width: "25rem" }}>
             <img className="card-img-top" src="/dist/img/goup/oui.jpg" alt="Card image cap" />
             <div className="card-body">
-              <h5 className="card-title">Lapusrada Jonboonruang (Oui)</h5>
-              <br/>
-              <p className="card-text">Unemployed</p>
+              <h5 className="card-text">Lapusrada Jonboonruang (Oui)</h5>
+              <p className="card-t">Unemployed</p>
               <a href="#" className="btn btn-primary">
                 Go somewhere
               </a>
