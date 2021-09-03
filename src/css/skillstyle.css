@@ -4,15 +4,14 @@
   color: rgb(19, 17, 17);
 }
 .container-fluid{
-    padding: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
     background-image:url('3.jpg');
-    background-position: center top;
-    background-size: 100%;
+    background-size: 100% 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .box{
   font-size: 50px;
-  position: relative;
   padding-top: 50;
   padding-left: 50px;
   padding-right: 100px;
@@ -25,7 +24,7 @@
   border-radius: 50px;
   text-align: left;
   padding: 20px;
-  background-color: wheat;
+  background-color: rgb(112, 226, 112);
 }
 h2{
     font-size: 30px;
