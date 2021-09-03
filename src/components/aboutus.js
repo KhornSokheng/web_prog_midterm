@@ -13,7 +13,7 @@ export default function aboutus() {
       <div className="bg">
         <div className="row">
           
-          <div className="card" style={{ width: "25rem" }}>
+          <div className="card" style={{ width: "30rem" }}>
             <img className="card-img-top" src="/dist/img/goup/mu.jpg" alt="Card image cap" />
             <div className="card-body">
               <h1 className="card-text">Mujalin Khattiyanon 
@@ -27,7 +27,7 @@ export default function aboutus() {
             </div>
           </div>
           
-          <div className="card" style={{ width: "25rem" }}>
+          <div className="card" style={{ width: "30rem" }}>
             <img className="card-img-top" src="/dist/img/goup/non.jpg" alt="Card image cap" />
             <div className="card-body">
               <h5 className="card-text">Khorn Sokheng 
@@ -41,10 +41,10 @@ export default function aboutus() {
             </div>
           </div>
           
-          <div className="card" style={{ width: "25rem" }}>
+          <div className="card" style={{ width: "30rem" }}>
             <img className="card-img-top" src="/dist/img/goup/aum.jpg" alt="Card image cap" />
             <div className="card-body">
-              <h5 className="card-text">Suchapong Songprakon (Aum)</h5>
+              <h5 className="card-text">Suchapong Songprakon <br/>(Aum)</h5>
               <br/>
               <p className="card-t">Designer</p>
               <a href="#" className="btn btn-primary">
@@ -53,10 +53,11 @@ export default function aboutus() {
             </div>
           </div>
           
-          <div className="card" style={{ width: "25rem" }}>
+          <div className="card" style={{ width: "30em" }}>
             <img className="card-img-top" src="/dist/img/goup/oui.jpg" alt="Card image cap" />
             <div className="card-body">
-              <h5 className="card-text">Lapusrada Jonboonruang (Oui)</h5>
+              <h5 className="card-text">Lapusrada Jonboonruang 
+              <br/>(Oui)</h5>
               <p className="card-t">Unemployed</p>
               <a href="#" className="btn btn-primary">
                 Go somewhere
