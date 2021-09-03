@@ -8,6 +8,7 @@
 }
 
 $width: 768px;
+// $height: 600px;
 @mixin mobile {
     @media (max-width: #{$width}){
         @content

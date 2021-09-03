@@ -13,20 +13,20 @@ export default function contectus() {
         <div className="left">
             {/* <h2>Keep in Touch</h2> */}
             <div className="facebook">
-            <FacebookIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
-            <a href=".#">Group 2 Buu</a>
+            <FacebookIcon className="myIcon" />
+            <a href=".#">Group 2 </a>
           </div>
           <div className="phone">
-            <CallIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
+            <CallIcon className="myIcon" />
             <a href=".#">02934567845</a>
           </div>
           <div className="mail">
-            <ChatBubbleOutlineIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
-            <a href=".#">62310021@go.buu.ac.th</a>
+            <ChatBubbleOutlineIcon className="myIcon" />
+            <a href=".#">g2@gmail.com</a>
           </div>
           <div className="address">
-            <PersonPinCircleIcon style={{ fontSize: 60, paddingRight: 10, color: "green" }}/>
-            <a href=".#">Burapha University, Chan</a>
+            <PersonPinCircleIcon className="myIcon" />
+            <a href=".#">BUU Chan</a>
           </div>
           
         </div>
