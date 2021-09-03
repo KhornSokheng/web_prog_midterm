@@ -1,10 +1,14 @@
 import React from 'react'
+import CallIcon from '@material-ui/icons/Call';
 
 
 export default function contectus() {
     return (
         <div class = "contectus">
             <h1>Contectus</h1>
+        <div class = "im">
+        <div class = "phone"><CallIcon/></div>
+        </div>
         <form>
         <div class = "E_Email">
             <input placeholder = "Email" type ="text" id="Email" name="Email" class ="control"></input>
