@@ -1,5 +1,6 @@
 import React from 'react'
 import CallIcon from '@material-ui/icons/Call';
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 
 
 export default function contectus() {
@@ -7,7 +8,8 @@ export default function contectus() {
         <div class = "contectus">
             <h1>Contectus</h1>
         <div class = "im">
-        <div class = "phone"><CallIcon/></div>
+        <div class = "phone"><CallIcon/><a href=".#">02934567845</a></div>
+        <div class = "ms"><ChatBubbleOutlineIcon/><a href=".#">62310021@go.buu.ac.th</a></div>
         </div>
         <form>
         <div class = "E_Email">
