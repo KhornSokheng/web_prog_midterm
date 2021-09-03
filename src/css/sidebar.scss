@@ -1,0 +1,25 @@
+.main-sidebar{
+    p{
+        font-size: 30px;
+    }
+    
+
+    .sidebar{
+
+        .user-panel{
+
+
+            .info{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .mt-2{
+            i{
+                font-size: 70px;
+                color: green;
+            }
+        }
+    }
+}
