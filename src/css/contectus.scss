@@ -1,0 +1,16 @@
+.contectus{
+    background-color: aqua;
+    
+    .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+        .left{
+            background-color: green;
+        
+            }
+            .right{
+                background-color: indianred;
+            }
+    }
+}
