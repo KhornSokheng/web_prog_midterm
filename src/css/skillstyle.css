@@ -1,52 +1,39 @@
-.skill{
+.skill-section {
   text-align: center;
-  width: 1000;
-  height: 1200;
-  border-style:solid;
-  font-size: 1200px;
-
+  font-size: 100px;
+  color: rgb(19, 17, 17);
 }
 .container-fluid{
+    padding: 200px;
     background-image:url('3.jpg');
     background-position: center top;
+    background-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .box{
   font-size: 50px;
-  width: 1000;
-  height: 1200;
   position: relative;
   padding-top: 50;
-  padding-left: 30px;
-  padding-right: 120px;
-}
-.box5{
-  padding-top: 50;
-  font-size: 50px;
-  padding-left: 20px;
-  padding-right: 120px;
+  padding-left: 50px;
+  padding-right: 100px;
 }
 .box6{
-  padding-top: 50;
-  font-size: 50px;
-  padding-left: 50px;
-  padding-right: 120px;
+  padding-top: 50px;
 }
-
-
 .lau{ 
   font-size: 30px;
-  text-align:left;
+  border-radius: 50px;
+  text-align: left;
+  padding: 20px;
   background-color: wheat;
-
-  
 }
 h2{
     font-size: 30px;
 }
 h3{
-    font-size: 30px;
+  font-size: 30px;
 }
+
 h4{
     font-size: 30px;
 }

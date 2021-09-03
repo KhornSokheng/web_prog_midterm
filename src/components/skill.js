@@ -1,17 +1,21 @@
 import React from "react";
+import '../css/global.scss'
 import "../css/skillstyle.css";
 export default function skill() {
   return (
     <div className="content-wrapper">
+    <div className="skill-section">
+      <h1>Skill</h1>
+    </div>
       <div className="container-fluid">
         {/* Info boxes */}
         <div className="row">
           <div className="box">
             <div className="box5">
-              <img src="dist/img/goup/mu.jpg" BORDER="3"></img>
+              <img src="dist/img/goup/mu.jpg"></img>
+              <br/>
               Mujalin Khattiyanon
-              <div className="lau">
-                <h3>Skill</h3>
+              <div class="lau"style= {{ width: "50rem" }}>
                 <h7>
                   Javascript:
                   <i class="fas fa-star"></i>
@@ -31,18 +35,63 @@ export default function skill() {
                 </h5>
 
                 <h6>
-                  CPP :<i class="fas fa-star"></i>
+                  CPP :
+                  <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </h6>
+                <a>
+                    Language:
+                    </a>
+                    <h3>
+                    <img src="dist/img/goup/tha.png" width="60"></img>
+                     :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                    <img src="dist/img/goup/eng.png" width="60"></img>
+                      :
+                      
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      Graphics
+                      <h3>
+                      <img src="dist/img/goup/ai.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/ps.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/pr.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
               </div>
             </div>
           </div>
-          <div className="box2">
-            <div className="box6">
-              <img src="dist/img/goup/non.jpg" BORDER="3"></img>
+          <div className="box">
+            <div className="box5">
+              <img src="dist/img/goup/non.jpg" ></img>
+              <br/>
               Khorn Sokheng
-              <div className="lau">
-                <h3>Skill</h3>
+              <div class="lau"style= {{ width: "50rem" }}>
                 <h7>
                   Javascript:
                   <i class="fas fa-star"></i>
@@ -74,20 +123,65 @@ export default function skill() {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </h6>
+                <a>
+                    Language:
+               
+                    </a>
+                    <h3>
+                    <img src="dist/img/goup/tha.png" width="60"></img>
+                     :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                    <img src="dist/img/goup/eng.png" width="60"></img>
+                      :
+                      
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      Graphics
+                      <h3>
+                      <img src="dist/img/goup/ai.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/ps.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/pr.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>   
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
               </div>
             </div>
           </div>
-          <div className="box3">
-            <div className="box">
+          <br/>
+          <div className="box">
+            <div className="box6">
               <img
-                src="dist/img/goup/oui.jpg"
-                BORDER="3"
-                width="370"
-                height="370"
-              ></img>
+                src="dist/img/goup/oui.jpg"></img>
+                <br/>
               Lapusrada Jonboonruang
-              <div className="lau">
-                <h3>Skill</h3>
+              <div class="lau"style= {{ width: "50rem" }}>
                 <h7>
                   Javascript:
                   <i class="fas fa-star"></i>
@@ -111,15 +205,64 @@ export default function skill() {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </h6>
+                <a>
+                    Language:
+               
+                    </a>
+                    <h3>
+                    <img src="dist/img/goup/tha.png" width="60"></img>
+                     :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                    <img src="dist/img/goup/eng.png" width="60"></img>
+                      :
+                      
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      Graphics
+                      <h3>
+                      <img src="dist/img/goup/ai.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/ps.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/pr.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>   
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
               </div>
             </div>
           </div>
-          <div className="box4">
-            <div className="box">
-              <img src="dist/img/goup/aum.jpg" BORDER="3"></img>
+          
+          <div className="box">
+            <div className="box6">
+              <img src="dist/img/goup/aum.jpg" ></img>
+              <br/>
               Suchapong Songprakon
-              <div className="lau">
-                <h3>Skill</h3>
+              <div class="lau"style= {{ width: "50rem" }}>
                 <h7>
                   Javascript:
                   <i class="fas fa-star"></i>
@@ -143,6 +286,54 @@ export default function skill() {
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </h6>
+                <a>
+                    Language:
+               
+                    </a>
+                    <h3>
+                    <img src="dist/img/goup/tha.png" width="60"></img>
+                     :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                    <img src="dist/img/goup/eng.png" width="60"></img>
+                      :
+                      
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      Graphics
+                      <h3>
+                      <img src="dist/img/goup/ai.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/ps.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
+                      <h3>
+                      <img src="dist/img/goup/pr.png" width="60"></img>
+                      :
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>   
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </h3>
               </div>
             </div>
           </div>
