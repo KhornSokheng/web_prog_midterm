@@ -1,16 +1,19 @@
-.contectus{
-    background-color: aqua;
-    
-    .container{
+.contectus {
+  background-color: aqua;
+
+  .container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-        .left{
-            background-color: green;
-        
-            }
-            .right{
-                background-color: indianred;
-            }
+    font-size: 15px;
+        margin-right: 50px;
+        padding: 7px;
+        border-radius: 10px;
+    .left {
+      background-color: green;
     }
+    .right {
+      background-color: indianred;
+    }
+  }
 }
