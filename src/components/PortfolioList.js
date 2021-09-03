@@ -8,5 +8,5 @@ export default function PortfolioList({id, title, active, setSelected}) {
         >
             {title}
         </li>
-    )
+    ) 
 }
