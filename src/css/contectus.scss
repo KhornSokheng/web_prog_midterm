@@ -85,11 +85,6 @@
       form {
         width: 100%;
         justify-content: space-around;
-        @include mobile{
-        
-          // justify-content: center; 
-          
-        }
         
         .E_Email,
         .E_name,

@@ -1,6 +1,8 @@
 import React from "react";
 import '../css/global.scss'
-import "../css/skillstyle.css";
+// import "../css/skillstyle.css";
+import "../css/skill.scss";
+
 export default function skill() {
   return (
     <div className="content-wrapper">
@@ -10,11 +12,13 @@ export default function skill() {
       <div className="container-fluid">
         <div className="row">
           <div className="box">
-            <div className="box5">
-              <img src="dist/img/goup/mu.jpg"></img>
-              <br />
-              Mujalin Khattiyanon
-              <div class="lau" style={{ width: "50rem" }}>
+            <div className="row_item box5">
+              <div className="image">
+                <img src="dist/img/goup/mu.jpg"></img>
+                <br />
+                {/* <h1>Mujalin Khattiyanon</h1> */}
+              </div>
+              <div class="lau" >
                 <h7>
                   Javascript:
                   <i class="fas fa-star"></i>
@@ -86,7 +90,7 @@ export default function skill() {
             </div>
           </div>
           <div className="box">
-            <div className="box5">
+            <div className="box5 row_item">
               <img src="dist/img/goup/non.jpg" ></img>
               <br />
               Khorn Sokheng
@@ -175,7 +179,7 @@ export default function skill() {
           </div>
           <br />
           <div className="box">
-            <div className="box6">
+            <div className="box6 box5 row_item">
               <img
                 src="dist/img/goup/oui.jpg"></img>
               <br />
@@ -257,7 +261,7 @@ export default function skill() {
           </div>
 
           <div className="box">
-            <div className="box6">
+            <div className="box6 box5 row_item">
               <img src="dist/img/goup/aum.jpg" ></img>
               <br />
               Suchapong Songprakon
