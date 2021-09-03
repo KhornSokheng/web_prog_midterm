@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import '../css/style.css'
 import '../css/sidebar.css'
-import '../css/global.css'
+import '../css/global.scss'
 
 
 

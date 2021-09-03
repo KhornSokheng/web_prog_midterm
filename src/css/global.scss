@@ -6,3 +6,10 @@
     
     font-family: 'Dosis', sans-serif;
 }
+
+$width: 768px;
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

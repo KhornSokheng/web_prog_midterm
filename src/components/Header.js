@@ -1,4 +1,6 @@
 import React from 'react'
+import '../css/header.scss'
+import '../css/global.scss'
 
 export default function Header() {
     return (

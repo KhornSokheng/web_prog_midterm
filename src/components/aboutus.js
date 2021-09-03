@@ -1,6 +1,7 @@
-import React from "react";
-import "../css/global.css";
-import "../css/aboutstyle.css";
+import React from 'react'
+import '../css/global.scss'
+import '../css/aboutstyle.css'
+
 
 export default function aboutus() {
   return (
@@ -60,8 +61,11 @@ export default function aboutus() {
             </div>
           </div>
         
+
       </div>
     </div>
     </div>
   );
 }
+
+    
