@@ -43,6 +43,7 @@ export default function aboutus() {
                   Hire Me
                 </a>
               </Link>
+              
             </div>
           </div>
           
