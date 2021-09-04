@@ -55,7 +55,11 @@ body,html {
     outline: none;
     z-index: 100;
 }
+#sticky-sibar{
+    position:fixed;
+    max-width: 20%;
 
+}
 .slick-prev {
     background-position: 0px;
     left: 0px;

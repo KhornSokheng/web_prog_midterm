@@ -7,7 +7,7 @@ import "../css/global.scss";
 export default function SideBar() {
     return (
         <div>
-            <aside className="main-sidebar sidebar-dark-primary elevation-4">
+            <aside className="main-sidebar sidebar-dark-primary elevation-4 position-fixed" id="sticky-sidebar">
                 {/* Brand Logo */}
                 <a href="index3.html" className="brand-link">
                     <img
