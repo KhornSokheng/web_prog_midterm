@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import '../css/global.scss'
 import '../css/aboutstyle.css'
 
@@ -21,9 +22,11 @@ export default function aboutus() {
               (Mulin)</h1>
               <br/>
               <p className="card-t">CEO</p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
+              <Link to="/contectus" className="nav-link">                                                                  
+                <a href="#" className="btn btn-primary">
+                  Hire Me
+                </a>
+              </Link>
             </div>
           </div>
           
@@ -35,9 +38,11 @@ export default function aboutus() {
               (Non)</h5>
               <br/>
               <p className="card-t">Art Director</p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
+              <Link to="/contectus" className="nav-link">                                                                  
+                <a href="#" className="btn btn-primary">
+                  Hire Me
+                </a>
+              </Link>
             </div>
           </div>
           
@@ -47,9 +52,11 @@ export default function aboutus() {
               <h5 className="card-text">Suchapong Songprakon <br/>(Aum)</h5>
               <br/>
               <p className="card-t">Designer</p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
+              <Link to="/contectus" className="nav-link">                                                                  
+                <a href="#" className="btn btn-primary">
+                  Hire Me
+                </a>
+              </Link>
             </div>
           </div>
           
@@ -59,9 +66,11 @@ export default function aboutus() {
               <h5 className="card-text">Lapusrada Jonboonruang 
               <br/>(Oui)</h5>
               <p className="card-t">Unemployed</p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
-              </a>
+              <Link to="/contectus" className="nav-link">                                                                  
+                <a href="#" className="btn btn-primary">
+                  Hire Me
+                </a>
+              </Link>
             </div>
           </div>
         
